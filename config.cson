@@ -1,0 +1,33 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+    fuzzyMatch: true
+  "atom-beautify":
+    python:
+      beautify_on_save: true
+      formatter: "yapf"
+  core:
+    disabledPackages: [
+      "markdown-preview"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "ariake-dark-syntax"
+    ]
+    useTreeSitterParsers: false
+  editor:
+    scrollPastEnd: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "78fe6a7f-6a2b-41f7-bbb6-50fd05424d99"
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    showPanel: true
+  "platformio-ide-terminal":
+    style: {}
+  welcome:
+    showOnStartup: false
