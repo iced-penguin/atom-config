@@ -9,3 +9,4 @@ storage
 .npm
 kite-config.json
 markdown-preview-plus.cson
+.atom-socket-secret-*
