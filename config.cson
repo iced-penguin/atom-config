@@ -14,7 +14,7 @@
     telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
-      "ariake-dark-syntax"
+      "iced-penguin-syntax"
     ]
     useTreeSitterParsers: false
   editor:
@@ -25,8 +25,7 @@
     userId: "78fe6a7f-6a2b-41f7-bbb6-50fd05424d99"
   kite:
     showWelcomeNotificationOnStartup: false
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "platformio-ide-terminal":
     style: {}
   welcome:
