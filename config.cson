@@ -19,6 +19,8 @@
     useTreeSitterParsers: false
   editor:
     scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
   "exception-reporting":
@@ -30,3 +32,5 @@
     style: {}
   welcome:
     showOnStartup: false
+  wordcount:
+    ignorecomments: true
