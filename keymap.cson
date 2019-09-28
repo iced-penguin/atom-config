@@ -70,5 +70,6 @@
   atom-text-editor[data-grammar~="css"]:not([mini]),
   atom-text-editor[data-grammar~="stylus"]:not([mini]),
   atom-text-editor[data-grammar~="sass"]:not([mini]),
-  atom-text-editor[data-grammar~="scss"]:not([mini])':
+  atom-text-editor[data-grammar~="scss"]:not([mini]),
+  atom-text-editor[data-grammar~="vue"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
