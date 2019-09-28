@@ -11,6 +11,9 @@
     disabledPackages: [
       "markdown-preview"
     ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
     telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
@@ -37,10 +40,13 @@
       "source.js-semantic"
       "text.html.vue"
     ]
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "platformio-ide-terminal":
     style: {}
+  "spell-check":
+    locales: [
+      "ja-JP"
+    ]
   welcome:
     showOnStartup: false
   wordcount:

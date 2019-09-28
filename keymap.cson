@@ -31,6 +31,14 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
+'atom-text-editor':
+  'cmd-a': 'editor:move-to-first-character-of-line'
+  'cmd-e': 'editor:move-to-end-of-line'
+  'cmd-w': 'custom:cut-word'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'alt-;': 'editor:toggle-line-comments'
+
 'body':
   'alt-/': 'core:redo'
   'cmd-x cmd-s': 'core:save'
@@ -40,9 +48,11 @@
   'ctrl-w': 'core:cut'
   'ctrl-x k': 'core:close'
   'ctrl-y': 'core:paste'
+  'cmd-d': 'core:delete'
+  'cmd-f': 'core:move-right'
 
-'atom-workspace atom-text-editor:not([mini])':
-  'alt-;': 'editor:toggle-line-comments'
+'.platform-darwin':
+  'cmd-s': 'find-and-replace:show'
 
 '.platform-darwin atom-workspace':
   'cmd-x cmd-t': 'platformio-ide-terminal:toggle'
@@ -54,7 +64,11 @@
 '.platform-darwin, .platform-win32, .platform-linux':
   'ctrl-x ctrl-l': 'go-to-line:toggle'
 
-'atom-text-editor':
-  'cmd-a': 'editor:move-to-first-character-of-line'
-  'cmd-e': 'editor:move-to-end-of-line'
-  'cmd-w': 'custom:cut-word'
+'atom-text-editor[data-grammar="text html basic"]:not([mini]),
+  atom-text-editor[data-grammar~="erb"]:not([mini]),
+  atom-text-editor[data-grammar~="jade"]:not([mini]),
+  atom-text-editor[data-grammar~="css"]:not([mini]),
+  atom-text-editor[data-grammar~="stylus"]:not([mini]),
+  atom-text-editor[data-grammar~="sass"]:not([mini]),
+  atom-text-editor[data-grammar~="scss"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
