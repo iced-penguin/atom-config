@@ -1,4 +1,5 @@
 "*":
+  Hydrogen: {}
   "advanced-open-file":
     createDirectories: true
     createFileInstantly: true
@@ -12,6 +13,7 @@
       "markdown-preview"
     ]
     packagesWithKeymapsDisabled: [
+      "emmet"
       "emmet"
     ]
     telemetryConsent: "no"
@@ -40,14 +42,14 @@
       "source.js-semantic"
       "text.html.vue"
     ]
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "platformio-ide-terminal":
     style: {}
   "spell-check":
     locales: [
       "ja-JP"
     ]
+  "tree-view": {}
   welcome:
     showOnStartup: false
   wordcount:
