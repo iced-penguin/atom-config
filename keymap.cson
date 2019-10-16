@@ -59,7 +59,7 @@
   'cmd-x cmd-f': 'advanced-open-file:toggle'
 
 '.platform-darwin, .platform-darwin .command-palette atom-text-editor':
-  'ctrl-x ctrl-p': 'command-palette:toggle'
+  'alt-x': 'command-palette:toggle'
 
 '.platform-darwin, .platform-win32, .platform-linux':
   'ctrl-x ctrl-l': 'go-to-line:toggle'
