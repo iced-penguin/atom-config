@@ -14,7 +14,10 @@ highlight-selected@0.16.0
 iced-penguin-syntax@0.0.1
 intentions@1.1.5
 kite@0.170.0
+language-latex@1.2.0
 language-vue@0.25.0
+latex@0.50.2
+latexer@0.3.0
 linter@2.3.1
 linter-eslint@8.5.5
 linter-flake8@2.4.0
@@ -22,6 +25,7 @@ linter-ui-default@1.8.0
 markdown-pdf@2.2.0
 markdown-preview-plus@3.9.3
 mathjax-wrapper@0.1.0
+pdf-view@0.72.0
 pigments@0.40.2
 platformio-ide-terminal@2.9.3
 python-indent@1.2.3
