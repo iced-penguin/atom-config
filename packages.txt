@@ -29,5 +29,6 @@ pdf-view@0.72.0
 pigments@0.40.2
 platformio-ide-terminal@2.10.0
 python-indent@1.2.3
+script@3.18.1
 wordcount@3.1.0
 

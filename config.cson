@@ -47,8 +47,7 @@
       "source.js-semantic"
       "text.html.vue"
     ]
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "platformio-ide-terminal":
     style: {}
   "spell-check":
