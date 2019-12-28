@@ -33,7 +33,6 @@
   kite:
     showWelcomeNotificationOnStartup: false
   latex:
-    buildOnSave: true
     engine: "uplatex"
     openResultAfterBuild: false
     openResultInBackground: false
@@ -47,7 +46,8 @@
       "source.js-semantic"
       "text.html.vue"
     ]
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "platformio-ide-terminal":
     style: {}
   "spell-check":
