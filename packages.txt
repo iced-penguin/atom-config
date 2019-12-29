@@ -25,7 +25,6 @@ linter-ui-default@1.8.0
 markdown-pdf@2.2.0
 markdown-preview-plus@3.9.3
 mathjax-wrapper@0.1.0
-pdf-view@0.72.0
 pigments@0.40.2
 platformio-ide-terminal@2.10.0
 python-indent@1.2.3
