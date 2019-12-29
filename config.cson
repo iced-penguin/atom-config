@@ -59,3 +59,16 @@
     showOnStartup: false
   wordcount:
     ignorecomments: true
+# bracketの自動挿入設定
+".tex.text":
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "\"\""
+      "''"
+      "“”"
+      "‘’"
+      "$$"
+    ]
