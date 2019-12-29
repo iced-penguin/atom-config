@@ -18,8 +18,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
-      "iced-penguin-syntax"
+      "atom-light-ui"
+      "flatwhite-syntax"
     ]
     useTreeSitterParsers: false
   editor:
@@ -59,7 +59,6 @@
     showOnStartup: false
   wordcount:
     ignorecomments: true
-# bracketの自動挿入設定
 ".tex.text":
   "bracket-matcher":
     autocompleteCharacters: [
